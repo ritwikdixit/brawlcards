@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Trading Card Game</title>
+		<link rel="stylesheet" href="stylesheet.css">
+	</head>
+	<body>
+		<div id="tophalf">
+			<h3 id="tc">Turn 1</h3>
+			<div id="battlescreen">
+				<progress id="hcpu0" class="cpuhealth" value="100" max="100"></progress>
+				<progress id="hcpu1" class="cpuhealth" value="100" max="100"></progress>
+				<progress id="hcpu2" class="cpuhealth" value="100" max="100"></progress>
+
+				<div id="cpu0" class="activeCard"><span class="cctext"></span></div>
+				<div id="cpu1" class="activeCard"><span class="cctext"></span></div>
+				<div id="cpu2" class="activeCard"><span class="cctext"></span></div>
+				<br>
+
+				<progress id="hp0" class="phealth" value="100" max="100"></progress>
+				<progress id="hp1" class="phealth" value="100" max="100"></progress>
+				<progress id="hp2" class="phealth" value="100" max="100"></progress>
+
+				<div id="p0" class="activeCard"><span class="cctext"></span></div>
+				<div id="p1" class="activeCard"><span class="cctext"></span></div>
+				<div id="p2" class="activeCard"><span class="cctext"></span></div>
+			</div>
+
+			<div id="handDisplay">
+				<div id="hand0" class="handButton"><span class="cctext">hand 0</span></div>
+				<div id="hand1" class="handButton"><span class="cctext">hand 1</span></div>
+				<div id="hand2" class="handButton"><span class="cctext">hand 2</span></div>
+			</div>	
+
+			<div id="playIndicator"><span class="cctext">Commentary for the game.</span></div>
+
+			<div id="p0moves" class="moveContainer">
+				<div id="p0m0" class="moveButton"><span class="cctext"></span></div>
+				<div id="p0m1" class="moveButton"><span class="cctext"></span></div>
+				<div id="p0m2" class="moveButton"><span class="cctext"></span></div>
+			</div>
+			<div id="p1moves" class="moveContainer">
+				<div id="p1m0" class="moveButton"><span class="cctext"></span></div>
+				<div id="p1m1" class="moveButton"><span class="cctext"></span></div>
+				<div id="p1m2" class="moveButton"><span class="cctext"></span></div>
+			</div>
+			<div id="p2moves" class="moveContainer">
+				<div id="p2m0" class="moveButton"><span class="cctext"></span></div>
+				<div id="p2m1" class="moveButton"><span class="cctext"></span></div>
+				<div id="p2m2" class="moveButton"><span class="cctext"></span></div>
+			</div>
+		</div>
+
+		<div id="cpuIndicator"><span class="cctext">Opp.Hand</span></div>
+
+		<div id="commandlinecontainer">
+			<div id="newcommandline"></div>
+		</div>
+
+		<input type="text" name="keyinput" id="commandinput">
+
+		<!--<script type="text/javascript" src="characters.js"></script> 
+		<script type="text/javascript" src="values.js"></script>
+		<script type="text/javascript" src="main.js"></script>-->
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="js/client.js"></script> 
+		
+
+	</body>
+</html>

@@ -1,0 +1,210 @@
+body {
+	padding: 20px;
+}
+
+#movesPreferences {
+	margin: 10px;
+}
+
+#switchPreferences {
+	margin: 10px;
+}
+
+.newcommandline {
+	display: inline-block;
+}
+
+#tc {
+	position: absolute;
+	top: 0px;
+	left: 435px;
+}
+
+#battlescreen {
+	display: inline-block;
+	text-align: center; /*changes whether the cards are centered lol*/
+	float: left;
+	margin: 15px;
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 880px;
+	height: 480px;
+	background: #ecf0f1;
+}
+
+#playIndicator {
+	position: absolute;
+	text-align: center;
+	background: #C0392B;
+	overflow: scroll;
+	top: 540px;
+	left: 28px;
+	width: 880px;
+	height:65px;
+
+	color: #fff;
+	font-size: 22px;
+}
+
+.activeCard {
+	background: #6C7A89;
+	margin: 42px 28px 14px 28px;
+	display: inline-block;
+	text-align: center;
+	color: transparent;
+	width: 125px;
+	height: 180px;
+	line-height: 180px;
+	border-radius: 4px;
+	background-size: contain;
+}
+
+.activeCard:hover {
+	background: #34495E!important;
+	color: #fff;
+	cursor: pointer;
+}
+
+.cpuhealth {
+	position: absolute;
+	width: 125px;
+	top: 64px;
+	left: 220px;
+	display: block;
+}
+
+#hcpu1 {
+	left: 403px;
+}
+
+#hcpu2 {
+	left: 588px;
+}
+
+.phealth {
+	position: absolute;
+	width: 125px;
+	top: 300px;
+	left: 220px;
+	display: block;
+}
+
+#hp1 {
+	left: 405px;
+}
+
+#hp2 {
+	left: 590px;
+}
+
+.moveContainer {
+	background: #C0392B;
+	float:left;
+	margin-left: 30px;
+	display: inline-block;
+	width: 280px;
+	height: 340px;
+	margin-bottom: 40px;
+}
+
+.moveButton {
+	background: #D1D5D8;
+	margin-left: 10px;
+	margin-top: 10px;
+	text-align: center;
+	width: 260px;
+	height: 100px;
+	line-height: 100px;
+}
+
+.moveButton:hover {
+	background: #fff!important;
+	cursor: pointer;
+}
+
+#p0moves {
+	position: absolute;
+	top: 630px;
+	left: 0px;
+}
+
+#p1moves {
+	position: absolute;
+	top: 630px;
+	left: 300px;
+}
+
+#p2moves {
+	position: absolute;
+	top: 630px;
+	left: 600px;
+}
+
+#tophalf {
+	width: 100%
+	height: 50%;
+}
+
+.cctext {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}
+
+#handDisplay {
+	position: absolute;
+	top: 48px;
+	left: 930px;
+	background: #3498DB;
+	display: inline-block;
+	width: 320px;
+	height: 340px;
+}
+
+#cpuIndicator {
+	position: absolute;
+	top: 415px;
+	left: 930px;
+	background: #3498DB;
+	display: inline-block;
+	width: 320px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.handButton {
+	background: #fff;
+	margin-left: 10px;
+	margin-top: 10px;
+	text-align: center;
+	line-height: 100px;
+	width: 300px;
+	height: 100px;
+}
+
+.handButton:hover {
+	background: #F5AB35!important;
+	cursor: pointer;
+}
+
+#commandlinecontainer {
+	position: absolute;
+	display: inline-block;
+	background: #3498DB;
+	top: 495px;
+	left: 930px;
+	width: 320px;
+	height: 445px;
+	overflow: scroll;
+}
+
+#commandinput {
+	position: absolute;
+	left: 930px;
+	top: 945px;
+	width: 315px;
+	font-size: 16px;
+}
+
+
