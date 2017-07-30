@@ -24,7 +24,7 @@ var p1, p2;
 
 io.on('connection', onConnection);
 app.use(express.static(__dirname + "/client"));
-server.listen(8080, () => console.log("Connected!")); 
+server.listen(process.env.PORT||8080, () => console.log("Connected!")); 
 
 //after everything happens this is where everything will happen.
 function onConnection(sock) {
